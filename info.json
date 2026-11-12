@@ -1,8 +1,15 @@
 {
-	"name": "invincible-worker-bots",
-	"version": "1.0.0",
-	"factorio_version": "2.0",
-	"title": "Invincible Worker Bots",
-	"author": "Someone_Else",
-	"description": "Makes construction and logistic bots immune to all damage, so they can repair defenses or traverse Fulgora without dying."
+  "name": "invincible-worker-bots-updated",
+  "version": "1.0.0",
+  "factorio_version": "2.1",
+  "title": "Invincible Worker Bots: Updated",
+  "author": "Someone_Else; FactorioMods (Factorio 2.1 port)",
+  "description": "Factorio 2.1 compatibility fork of invincible-worker-bots. Makes construction and logistic bots immune to all damage, so they can repair defenses or traverse Fulgora without dying.",
+  "migrates_from": [
+    "invincible-worker-bots"
+  ],
+  "dependencies": [
+    "base >= 2.1.24",
+    "! invincible-worker-bots"
+  ]
 }
